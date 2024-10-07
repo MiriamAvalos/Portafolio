@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Menu from '../components/Menu';
 import '../styles/about.css';
-import miri from '../images/PerfilMiriam.jpg';
+import miri from '../images/PerfilMiriam.png';
 import arrow from '../images/right-arrow.png';
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ class About extends Component {
 
           <div className="cointenerButtonsAbout">
             <Link to="/contact">
-              <button className="buttonAboutContact" data-aos="zoom-in">Contact me  <img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> 
+              <button className="buttonAboutContact" data-aos="zoom-in">Contact me<img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> 
             </Link>
             <Link to="/works">
               <button className="buttonAboutContact" data-aos="zoom-in">See my works<img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> 
