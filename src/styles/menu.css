@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
 
 .cointenerMenu {
-  background: #0d0d0d;
+  background: #6E07F3;
   width: 20%;
   padding: 50px 20px 20px 20px;
   margin: 0 auto;
@@ -19,9 +19,8 @@
   text-decoration: none;
 }
 .buttonMenu {
-  color: #b3b3b3;
+  color: #ffff;
   margin: auto;
- /* margin: 50px 0 0 80px;  */
   font-family: "Lato";
   font-size: 18px;
   text-align: center;
@@ -83,6 +82,7 @@
   }
   .iconBurger {
     margin: 15px;
+    display: flex;
     justify-content: flex-end; 
     padding-left: 20px;
   }
