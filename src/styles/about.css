@@ -69,6 +69,7 @@
   left: 0; 
 }
 .photoarrow{
+  width: 3.1em;
   filter: brightness(0) saturate(100%) invert(33%) sepia(72%) saturate(575%) hue-rotate(210deg) brightness(96%) contrast(100%); /* Aproximación del color azul */ 
 }
 

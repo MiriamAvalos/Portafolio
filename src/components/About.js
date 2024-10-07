@@ -30,10 +30,10 @@ class About extends Component {
 
           <div className="cointenerButtonsAbout">
             <Link to="/contact">
-              <button className="buttonAboutContact" data-aos="zoom-in">Contact me  <img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> {/* Añade data-aos aquí */}
+              <button className="buttonAboutContact" data-aos="zoom-in">Contact me  <img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> 
             </Link>
             <Link to="/works">
-              <button className="buttonAboutContact" data-aos="zoom-in">See my works</button> {/* Añade data-aos aquí */}
+              <button className="buttonAboutContact" data-aos="zoom-in">See my works<img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> 
             </Link>
           </div>
         </div>
