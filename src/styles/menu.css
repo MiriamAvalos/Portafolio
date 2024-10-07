@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+
+.cointenerMenu {
+  background: #0d0d0d;
+  width: 20%;
+  padding: 50px 20px 20px 20px;
+  margin: 0 auto;
+
+}
+.logoMenu {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 35px;
+}
+.fa-bars {
+  display: none;
+}
+.cointenerButtons {
+  text-decoration: none;
+}
+.buttonMenu {
+  color: #b3b3b3;
+  margin: auto;
+ /* margin: 50px 0 0 80px;  */
+  font-family: "Lato";
+  font-size: 18px;
+  text-align: center;
+  width: 50%;
+  cursor: pointer;
+  padding-bottom: 35px;
+}
+.buttonMenu:hover {
+  color: #00fa77;
+}
+
+@media only screen and (max-width: 1110px) {
+  .buttonMenu {
+    color: #b3b3b3;
+    margin: auto;
+    /* margin: 50px 0 0 80px; */
+    font-family: "Lato";
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+.logoMenu {
+  width: 60%;
+  padding-bottom: 15px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+  .logoMenu {
+    width: 65%;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .logoMenu {
+    width: 50%;
+  }
+  .cointenerMenu {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .cointenerMenu {
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+  }
+
+  .logoMenu {
+    display: none;
+    width: 35%;
+    padding: 0;
+    justify-content: flex-start; 
+  }
+  .iconBurger {
+    margin: 15px;
+    justify-content: flex-end; 
+    padding-left: 20px;
+  }
+  .cointenerButtons {
+    background: #00fa77;
+    height: auto;
+    padding: 15px;
+  }
+  .buttonMenu {
+    color: #0d0d0d;
+    font-family: "Lato";
+    font-size: 16px;
+    width: 100%;
+    cursor  : pointer;
+  }
+  .fa-bars {
+    display: inline-block;
+    color: #00fa77;
+    text-align: right;
+
+  }
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+
+.cointenerMain {
+  background-color: #171617;
+  display: flex;
+  height: 100vh;
+}
+.titleMain {
+  width: 80%;
+  color: cornsilk;
+  padding: 40px;
+  font-size: 20px;
+  font-family: "Lato";
+}
+@media only screen and (max-width: 650px) {
+  .cointenerMain {
+    display: inline-block;
+    width: 100%;
+  }
+}

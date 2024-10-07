@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+
+.cointenerAbout {
+  background-color: #171617;
+  display: flex;
+  height: 100vh;
+}
+.cointenerTextAbout {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(1, 50%);
+  justify-content: center;
+  width: 80%;
+}
+.photoMiri {
+  border-radius: 40%;
+  width: 30%;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+.titleAbout {
+  font-family: "Lato";
+  font-size: 30px;
+  color: #b3b3b3;
+ 
+}
+.aboutMe {
+  color: #b3b3b3;
+  font-family: "Lato";
+  font-size: 16px;
+  text-align: left;
+  padding: 0 0 40px 0;
+}
+.buttonAboutContact {
+  margin: 0 5px 80px 0;
+  padding: 10px;
+  background: #2e2e2e;
+  color: #b3b3b3;
+  width: 40%;
+}
+
+.buttonAboutContact:hover {
+  color: #00fa77;
+
+}
+
+@media only screen and (max-width: 900px) {
+  .cointenerTextAbout {
+    grid-template-columns: repeat(1, 80%);
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .titleAbout {
+    font-size: 25px;
+  }
+  .photoPau {
+    width: 50%;
+  }
+  .aboutMe {
+    font-size: 14px;
+  }
+  .cointenerTextAbout {
+    grid-template-columns: repeat(1, 80%);
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .cointenerAbout {
+    display: inline-block;
+    height: auto;
+  }
+  .cointenerTextAbout {
+    display: absolute;
+    width: 100%;
+    grid-template-columns: repeat(1, 80%);
+  }
+  .photoPau {
+    width: 50%;
+  }
+  .titleAbout {
+    font-size: 25px;
+  }
+
+  .buttonAboutContact {
+    margin: 0 15px 80px 0;
+    padding: 10px;
+    background: #2e2e2e;
+    color: #b3b3b3;
+    width: 45%;
+  }
+  @media only screen and (max-width: 370px) {
+    .buttonAboutContact {
+      width: 100%;
+      margin: 0 5px 20px 0;
+    }
+    .titleAbout {
+      font-size: 23px;
+    }
+  }
+  @media only screen and (max-width: 370px) {
+    .titleAbout {
+      font-size: 23px;
+    }
+  }
+}
