@@ -23,13 +23,13 @@ class About extends Component {
         <div className='cointenerTextAbout'>
           <img src={miri} alt='' className='photoMiri' data-aos='fade-up' />
           <p className='titleAbout' data-aos='fade-right'>
-            Hola,{' '}
+            Hello,{' '}
           </p>
           <p className='titleAbout' data-aos='fade-right'>
-            Mi nombre es <span className='spanContact'>Miriam Avalos</span>
+            My name is <span className='spanContact'>Miriam Avalos.</span>
           </p>
           <p className='titleAbout' data-aos='fade-left'>
-            Soy Desarrolladora Web.{' '}
+            I am a Web Developer.{' '}
           </p>
 
           <br />

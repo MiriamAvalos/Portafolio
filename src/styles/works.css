@@ -1,41 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
-.cointenerWorks{
-    background-color: #171617;
-    /*background: #131313;*/
-    display: flex;
+.cointenerWorks {
+  background-color: #ffffff;
+  display: flex;
 }
-.cointenerCardsProyects{
-    width: 80%;
+.cointenerCardsProyects {
+  width: 80%;
 }
-.titleWorks{
-    text-align: center;
-    margin: 0;
-    /*width: 100%;*/
-    font-family: "Lato";
-    font-size: 30px;
-  color:  #b3b3b3;
-    padding: 0px;
-    margin: 50px 0 60px 0;
+.spanContact {
+  color: #6e07f3;
 }
-::-webkit-scrollbar{
-    background: #2e2e2e;
-    width: 8px;
+
+.titleWorks {
+  text-align: center;
+  margin: 0;
+  font-family: 'Lato';
+  font-size: 30px;
+  color: #141c3a;
+  padding: 0px;
+  margin: 50px 0 60px 0;
 }
-::-webkit-scrollbar-thumb{
-    background-color: #00FA77;
+::-webkit-scrollbar {
+  background: #2e2e2e;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00fa77;
 }
 @media only screen and (max-width: 650px) {
-    .cointenerWorks {
-      display: inline-block;
-      height: auto;
-    }
-    .cointenerCardsProyects{
-        width: 100%;
-    }
+  .cointenerWorks {
+    display: inline-block;
+    height: auto;
+  }
+  .cointenerCardsProyects {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 425px) {
-    .titleWorks{
-        font-size: 25px;
-    }
+  .titleWorks {
+    font-size: 25px;
+  }
 }

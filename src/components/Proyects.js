@@ -1,33 +1,147 @@
 const Proyects = {
-    'data': [
-        {
-            'id': 1,
-            'img': 'https://i.ibb.co/FB5DqBN/burger-Kawaii-App-Talento.png',
-            'name': 'Burger Kawaii',
-            'description': 'It\'s a web app to be use in tablets. It creates orders to a burger restaurant with two menus where the chefs can see the orders in real time and delete them when they are ready.',
-            'demo': 'https://vimeo.com/376056295',
-            'github': 'https://github.com/PaulinaMontoya/burger-kawaii',
-            'technologies': ["React.js", "Create-React-App", "React-Router", "CSS3", "HTML5", "Responsive Web", "Fetch"]
-        },
-        {
-            'id': 2,
-            'img': 'https://i.ibb.co/0KzpMNS/guanataco-App-Talento.png',
-            'name': 'Guanataco',
-            'description': 'It\'s a social network to write posts with comments about places to eat tacos in the city of Guadalajara and other users can rate them.',
-            'demo': 'https://vimeo.com/376266190',
-            'github': 'https://github.com/PaulinaMontoya/GDL003-social-network',
-            'technologies': ["Vanilla-JavaScript", "CSS3", "HTML5", "Firebase-Authentication", "Cloud Firestore"]
-        },
-        {
-            'id': 3,
-            'img': 'https://i.ibb.co/0V2QX5y/morty-App-Talento.png',
-            'name': 'Morty\'s Nightmares',
-            'description': 'It\'s a 2D platform game created with Unity. If you want to dowloand it the build is in my GitHub account but it only works in windows.',
-            'demo': 'https://vimeo.com/376002772',
-            'github': 'https://github.com/PaulinaMontoya/GDL003-Videogame-2D-Rick-and-Morty',
-            'technologies': ["Unity", "C#"]
-        }
-    ]
-}
+  data: [
+    {
+      id: 1,
+      img: '/filmFolio.png',
+      name: 'FilmFolio',
+      description:
+        'This web application, developed with React, allows users to explore and enjoy information about movies and series using data from The Movie Database (TMDB) API. Users can browse and view details about each title, as well as access YouTube trailers for a more immersive experience. The integration with the TMDB API provides up-to-date information on movies and series, including details such as the director, actors, and synopsis.',
+      demo: 'https://dev-008-movie-challenge-fw-kappa.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/DEV008-movie-challenge-fw',
+      technologies: [
+        'Html',
+        'Css',
+        'Javascript',
+        'React',
+        'Vite',
+        'Pruebas Unitarias',
+      ],
+    },
 
-export default Proyects
+    {
+      id: 2,
+      img: '/redis.png',
+      name: 'Social Network REDIS',
+      description:
+        'This project is a fictitious social network application developed as a Single Page Application (SPA) for mobile devices, using JavaScript, HTML, and CSS. The application allows users to create accounts, log in, and manage posts, including creating, editing, deleting, and liking posts. For data persistence, Firebase was integrated, allowing efficient storage and retrieval of information. Additionally, unit tests were implemented to ensure code quality and proper functionality.',
+      demo: 'https://dev-008-social-network-redis.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/DEV008-social-network-REDIS',
+      technologies: [
+        'Html',
+        'Css',
+        'Javascript',
+        'Firebase',
+        'Vite',
+        'Pruebas Unitarias',
+        'Firestore',
+      ],
+    },
+
+    {
+      id: 3,
+      img: '/barberiaAlura.png',
+      name: 'Barbershop Alura',
+      description:
+        'This project involves the development of a website for a fictitious barbershop called Barbería Alura, created over the course of four HTML and CSS classes. The project covers everything from basic concepts to advanced web development topics. A responsive design is implemented using measurement units such as percentages, ems, and rems to ensure a smooth user experience across various devices. Additionally, Bootstrap is integrated to utilize components like carousels and responsive menus, enhancing navigability. It also includes a JavaScript script that allows customers to easily communicate via WhatsApp with a simple click on an icon.',
+      demo: 'https://barberia-alura-beta.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/BarberiaAlura',
+      technologies: ['Html', 'Css', 'Javascript', 'Bootstrap'],
+    },
+    {
+      id: 4,
+      img: '/cardValidation.png',
+      name: 'Card Validation',
+      description:
+        'This donation application is simple and intuitive. The user fills out a form and presses "donate" to execute the transaction. It includes a dropdown list to select the artist to support and validates the card number, ensuring it is not empty and only accepts numbers. It uses the Luhn algorithm to validate the card number through the function isValid(creditCardNumber), displaying clear messages to the user in case of empty or invalid data. Additionally, it incorporates masking of the card number with the Maskify function, hiding all digits except for the last ones.',
+      demo: 'https://miriamavalos.github.io/DEV008-card-validation/',
+      github: 'https://github.com/MiriamAvalos/DEV008-card-validation',
+      technologies: ['Html', 'Css', 'Javascript'],
+    },
+    {
+      id: 5,
+      img: '/adivinaElNumero.png',
+      name: 'Guess the secret number',
+      description:
+        'This is a simple game implemented in JavaScript where the user tries to guess a secret number randomly generated by the program. If the user correctly guesses the number, an image of a robot is displayed along with a congratulatory message. If the user fails to guess the number after a maximum number of attempts, the game ends, and a message is shown indicating that they have reached the limit of attempts.',
+      demo: 'https://numero-secreto-five-rust.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/numeroSecreto',
+      technologies: ['Html', 'Css', 'Javascript'],
+    },
+    {
+      id: 6,
+      img: '/rickAndMorty.png',
+      name: 'Rick and Morty',
+      description:
+        'This project is a web application that displays detailed information about the characters from the television series Rick and Morty. The application allows users to explore a list of characters, filter them by status, species, and gender, as well as sort them alphabetically. Additionally, clicking on each character opens a modal window with specific details about the selected character.',
+      demo: 'https://miriamavalos.github.io/DEV008-Rick-and-Morty/',
+      github: 'https://github.com/MiriamAvalos/DEV008-Rick-and-Morty',
+      technologies: ['Html', 'Css', 'Javascript'],
+    },
+
+    {
+      id: 7,
+      img: '/mundoPok.png',
+      name: 'MundoPok',
+      description:
+        'In this project, I developed an application that uses the fetch function to make requests to a Pokémon API. The application retrieves information about different Pokémon and displays the data in the form of cards. Each card includes details such as the name, image, and characteristics of the Pokémon',
+      demo: 'hhttps://mundo-pok.vercel.app/personajes.html',
+      github: 'https://github.com/MiriamAvalos/MundoPok-',
+      technologies: ['Html', 'Css', 'Javascript'],
+    },
+
+    {
+      id: 8,
+      img: '/chidasTech.png',
+      name: 'CHIDAS TECH Clone',
+      description:
+        'The webpage replicates the structure and design of CHIDAS TECH, an organization that promotes womens participation in STEM. Bootstrap has been used to facilitate responsive design and ensure an enjoyable experience on both desktop and mobile devices.',
+      demo: 'https://proyecto2-chidas.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/Proyecto2Chidas',
+      technologies: ['Html', 'Css', 'Bootstrap'],
+    },
+
+    {
+      id: 9,
+      img: '/clonJuniorAr.png',
+      name: 'Clon-de-Junior-Archievement',
+      description:
+        'This project is a responsive clone of the Junior Achievement Argentina website, an organization dedicated to preparing young people for the future through programs in financial education, job readiness, and entrepreneurship. Using Bootstrap, an attractive and user-friendly interface was designed, which includes a header, navigation, informative sections about the organization and its programs, and a footer. The design is responsive, ensuring an optimal experience on both mobile and desktop devices, allowing users to effectively access information on any screen size.',
+      demo: 'https://clon-de-junior-archievement.vercel.app//',
+      github: 'https://github.com/MiriamAvalos/Clon-de-Junior-Archievement',
+      technologies: ['Html', 'Css', 'Bootstrap'],
+    },
+
+    {
+      id: 10,
+      img: '/curiosamenteTrivia.png',
+      name: 'Curiosamente Trivia',
+      description:
+        'This trivia game for kids is designed to be fun and spark curiosity. The questions are suitable for the average age at which children can read, promoting independent use. The prototype includes four screens: Welcome, Menu, Questions, and Final Score, providing an engaging and easy-to-understand experience with simple language and bright colors.',
+      demo: 'https://p2lj5x.csb.app/',
+      github: 'https://github.com/MiriamAvalos/Trivia_Laboratoria',
+      technologies: ['Html', 'Css', 'JavaScript vanilla'],
+    },
+    {
+      id: 11,
+      img: '/helloFlex.png',
+      name: 'HelloForest_FlexBox',
+      description:
+        'This project was created as part of the TECNOLOchicas Pro bootcamp. It is a design practice using Flexbox and aims to demonstrate the ability to work with responsive design.',
+      demo: 'https://hello-forest-flex-box.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/HelloForest_FlexBox',
+      technologies: ['Html', 'CSS3'],
+    },
+    {
+      id: 12,
+      img: '/googleClon.png',
+      name: 'Google-Clone',
+      description:
+        'This project is a replica of the Google homepage. I used HTML and CSS to recreate the minimalist and functional design of the interface. The clone includes the Google logo, the search bar, and the Google Search and Im Feeling Lucky buttons.',
+      demo: 'https://google-clone-nine-alpha.vercel.app',
+      github: 'https://www.github.com/MiriamAvalos/google-clone',
+      technologies: ['Html', 'Css', 'Javascript'],
+    },
+  ],
+};
+
+export default Proyects;

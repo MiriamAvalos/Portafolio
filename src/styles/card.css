@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
 .cointenerAllCards {
   display: inline-block;
@@ -13,18 +13,22 @@
   width: 100%;
   height: auto;
   border-radius: 5px;
-  padding: 35px;
+  padding: 10px;
 }
 .imgCard {
   text-align: center;
-  margin: 20px 0 10px 0;
+  margin: 35px 35px 10px 35px;
+  width: 80%;
+  border: 30px;
+  height: 25%;
 }
 .proyectName {
-  font-size: 18px;
-
+  font-size: 20px;
+  color: #00fa77;
+  margin: 0px 0px 5px 0px;
 }
 .infoProyect {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-size: 14px;
   padding: 15px;
   color: #b3b3b3;
@@ -36,7 +40,7 @@
   display: inline-block;
 }
 .technilogies {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-style: bold;
   font-size: 18px;
   margin-bottom: 10px;
@@ -53,7 +57,7 @@
   margin: 20px 0 20px 0;
 }
 .buttonProyect {
-  margin: 0 5px 0 0;
+  margin: 10px 5px 0 0;
   padding: 10px;
   background: #171617;
   color: #b3b3b3;
@@ -71,6 +75,9 @@
     text-align: center;
     margin-bottom: 0;
   }
+  .imgCard {
+    height: 0;
+  }
 }
 @media only screen and (max-width: 992px) {
   .cointenerAllCards {
@@ -86,6 +93,10 @@
     padding: 10px;
     width: 48%;
   }
+
+  .imgCard {
+    height: 0;
+  }
 }
 @media only screen and (max-width: 425px) {
   .buttonProyect {
@@ -95,9 +106,16 @@
   .cointenerCard {
     padding: 10px;
   }
+
+  .imgCard {
+    height: 0;
+  }
 }
 @media only screen and (max-width: 425px) {
   .proyectName {
     font-size: 20px;
+  }
+  .imgCard {
+    height: 0;
   }
 }
