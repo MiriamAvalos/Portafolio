@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.cc262cf1.css",
+    "main.js": "/Portafolio/static/js/main.28415f08.js",
+    "static/media/PerfilMiriam.png": "/Portafolio/static/media/PerfilMiriam.b7f028006a9af0a7d5ef.png",
+    "static/media/logoMiri.png": "/Portafolio/static/media/logoMiri.1681bf27e1bceb06512b.png",
+    "index.html": "/Portafolio/index.html",
+    "main.cc262cf1.css.map": "/Portafolio/static/css/main.cc262cf1.css.map",
+    "main.28415f08.js.map": "/Portafolio/static/js/main.28415f08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc262cf1.css",
+    "static/js/main.28415f08.js"
+  ]
+}
