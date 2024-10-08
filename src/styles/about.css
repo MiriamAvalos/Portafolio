@@ -1,14 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
 .cointenerAbout {
   background-color: #ffffff;
   display: flex;
+  position: absolute;
+  width: 100vw;
   height: 100vh;
 }
 .cointenerTextAbout {
   text-align: center;
   margin: auto;
-  display: inline-block;
   display: grid;
   grid-template-columns: repeat(1, 50%);
   justify-content: center;
@@ -20,43 +30,41 @@
   padding: 0px 0 0px 0;
 }
 .titleAbout {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-size: 30px;
-  color:#141c3a;
- 
+  color: #141c3a;
 }
 .aboutMe {
   color: #b3b3b3;
-  font-family: "Lato";
+  font-family: 'Lato';
   font-size: 16px;
   text-align: left;
   padding: 0 0 40px 0;
 }
-.cointenerButtonsAbout{
+.cointenerButtonsAbout {
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
-.buttonAboutContact {  
+.buttonAboutContact {
   margin: 2rem 2rem 80px 0;
   padding: 10px;
-  color: #6E07F3;
+  color: #6e07f3;
   width: 90%;
-  border: 1px solid #6E07F3; 
+  border: 1px solid #6e07f3;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   white-space: nowrap;
-  position: relative; 
-  overflow: hidden;   
+  position: relative;
+  overflow: hidden;
   transition: color 0.4s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; 
+  gap: 10px;
   cursor: pointer;
-  position: relative; 
+  position: relative;
 }
 
 .buttonAboutContact::before {
@@ -66,27 +74,27 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #6E07F3;
+  background-color: #6e07f3;
   transition: left 0.4s;
-  z-index: -1; 
- 
+  z-index: -1;
 }
 
 .buttonAboutContact:hover::before {
   left: 0;
-  
 }
 .buttonAboutContact:hover .photoarrow {
-  filter: brightness(0) invert(1); 
+  filter: brightness(0) invert(1);
 }
 
 .photoarrow {
   width: 30px;
   height: 20px;
   transition: filter 0.4s ease;
+  filter: brightness(0) invert(30 0 0 #f0bce7);
 }
+
 .buttonAboutContact:hover {
-  color: #ffff; 
+  color: #ffff;
 }
 
 @media only screen and (max-width: 900px) {
@@ -99,9 +107,7 @@
   .titleAbout {
     font-size: 25px;
   }
-  .photoPau {
-    width: 50%;
-  }
+
   .aboutMe {
     font-size: 14px;
   }
@@ -111,42 +117,50 @@
 }
 
 @media only screen and (max-width: 650px) {
+  .cointenerTextAbout {
+    margin-top: 40px;
+
+    height: 70vh;
+  }
   .cointenerAbout {
+    display: inline-block;
+    height: auto;
+  }
+
+  .photoMiri {
+    width: 90%;
+    margin: 1.5rem auto;
+    padding: 0px 0 0px 0;
+  }
+
+  .buttonAboutContact {
+    width: 100%;
+    margin: 0 5px 20px 0;
+  }
+  .cointenerButtonsAbout {
     display: inline-block;
     height: auto;
   }
   .cointenerTextAbout {
     display: absolute;
-    width: 100%;
+    width: 40vh;
     grid-template-columns: repeat(1, 80%);
   }
-  .photoPau {
-    width: 50%;
-  }
+
   .titleAbout {
     font-size: 25px;
   }
 
-  .buttonAboutContact {
-    margin: 0 15px 80px 0;
-    padding: 10px;
-    background: #2e2e2e;
-    color: #b3b3b3;
-    width: 45%;
-    
-  }
-
-  
   @media only screen and (max-width: 370px) {
+    .photoMiri {
+      width: 60%;
+      margin: 1.5rem auto;
+      padding: 0px 0 0px 0;
+    }
     .buttonAboutContact {
       width: 100%;
       margin: 0 5px 20px 0;
     }
-    .titleAbout {
-      font-size: 23px;
-    }
-  }
-  @media only screen and (max-width: 370px) {
     .titleAbout {
       font-size: 23px;
     }

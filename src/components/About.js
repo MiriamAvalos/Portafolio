@@ -10,30 +10,52 @@ class About extends Component {
     // Inicializa AOS
     if (window.AOS) {
       window.AOS.init({
-        duration: 1000, // Duración de la animación
-        once: true, // Si deseas que la animación ocurra solo una vez
+        duration: 1000,
+        once: true,
       });
     }
   }
 
   render() {
     return (
-      <div className="cointenerAbout">
+      <div className='cointenerAbout'>
         <Menu />
-        <div className="cointenerTextAbout">
-          <img src={miri} alt="" className="photoMiri" data-aos="fade-up" /> 
-          <p className="titleAbout" data-aos="fade-right">Hola, </p>
-          <p className="titleAbout" data-aos="fade-right">Mi nombre es <span className="spanContact">Miriam Avalos</span></p>
-          <p className="titleAbout" data-aos="fade-left">Soy Desarrolladora Web. </p>
-          
-          <br/>
+        <div className='cointenerTextAbout'>
+          <img src={miri} alt='' className='photoMiri' data-aos='fade-up' />
+          <p className='titleAbout' data-aos='fade-right'>
+            Hola,{' '}
+          </p>
+          <p className='titleAbout' data-aos='fade-right'>
+            Mi nombre es <span className='spanContact'>Miriam Avalos</span>
+          </p>
+          <p className='titleAbout' data-aos='fade-left'>
+            Soy Desarrolladora Web.{' '}
+          </p>
 
-          <div className="cointenerButtonsAbout">
-            <Link to="/contact">
-              <button className="buttonAboutContact text" data-aos="zoom-in">Contact me<img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> 
+          <br />
+
+          <div className='cointenerButtonsAbout'>
+            <Link to='/contact'>
+              <button className='buttonAboutContact text' data-aos='zoom-in'>
+                Contact me
+                <img
+                  src={arrow}
+                  alt=''
+                  className='photoarrow'
+                  data-aos='fade-up'
+                />{' '}
+              </button>
             </Link>
-            <Link to="/works">
-              <button className="buttonAboutContact" data-aos="zoom-in">See my works<img src={arrow} alt="" className="photoarrow" data-aos="fade-up" /> </button> 
+            <Link to='/works'>
+              <button className='buttonAboutContact' data-aos='zoom-in'>
+                See my works
+                <img
+                  src={arrow}
+                  alt=''
+                  className='photoarrow'
+                  data-aos='fade-up'
+                />{' '}
+              </button>
             </Link>
           </div>
         </div>

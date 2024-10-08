@@ -4,8 +4,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_OPTIONS=--max_old_space_size=4096 react-scripts start",
+  "build": "cross-env NODE_OPTIONS=--max_old_space_size=4096 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
