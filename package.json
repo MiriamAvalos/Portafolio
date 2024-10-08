@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--max_old_space_size=4096 react-scripts start",
-  "build": "cross-env NODE_OPTIONS=--max_old_space_size=4096 react-scripts build",
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=4096 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
