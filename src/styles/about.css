@@ -56,8 +56,7 @@
   justify-content: center;
   gap: 10px; 
   cursor: pointer;
-  transition: color 0.4s, border-color 0.4s;
-  background-color: transparent;
+  position: relative; 
 }
 
 .buttonAboutContact::before {
@@ -69,7 +68,8 @@
   height: 100%;
   background-color: #6E07F3;
   transition: left 0.4s;
-  z-index: 0;
+  z-index: -1; 
+ 
 }
 
 .buttonAboutContact:hover::before {
@@ -81,11 +81,13 @@
 }
 
 .photoarrow {
-  width: 20px;
+  width: 30px;
   height: 20px;
   transition: filter 0.4s ease;
 }
-
+.buttonAboutContact:hover {
+  color: #ffff; 
+}
 
 @media only screen and (max-width: 900px) {
   .cointenerTextAbout {
