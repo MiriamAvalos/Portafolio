@@ -97,9 +97,14 @@ body {
   color: #ffff;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 920px) {
+
+  .photoMiri {
+    width: 60%;
+  }
   .cointenerTextAbout {
     grid-template-columns: repeat(1, 80%);
+  
   }
 }
 
