@@ -2,6 +2,24 @@ const Proyects = {
   data: [
     {
       id: 1,
+      img: `${process.env.PUBLIC_URL}/BioPint.jpg`,
+      name: 'BioPint',
+      description:
+        'This web application, developed with React, showcases a company dedicated to the production and sale of eco-friendly paints made from recycled PET. Users can explore information about the company, its values, mission, vision, environmental issues, products, and watch a presentation video. The app also features a WhatsApp contact button for easy communication.',
+      demo: 'https://biopint.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/biopint',
+      technologies: [
+        'React',
+        'Vite',
+        'React Router',
+        'Javascript',
+        'CSS',
+        'AOS (Animate On Scroll)',
+        'Bootstrap',
+      ],
+    },
+    {
+      id: 2,
       img: `${process.env.PUBLIC_URL}/filmFolio.png`,
       name: 'FilmFolio',
       description:
@@ -18,7 +36,7 @@ const Proyects = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: `${process.env.PUBLIC_URL}/redis.png`,
       name: 'Social Network REDIS',
       description:
@@ -35,8 +53,18 @@ const Proyects = {
         'Firestore',
       ],
     },
+      {
+      id: 4,
+      img: `${process.env.PUBLIC_URL}/Sinfonitones.jpg`,
+      name: 'Sinfonitones',
+      description:
+        'This web application, developed with JavaScript, HTML, and CSS, allows users to play different musical sounds by clicking buttons or pressing keys on the keyboard. Each key triggers a unique sound, providing an interactive and fun way to explore basic music creation.',
+      demo: 'https://sinfonitones.vercel.app/',
+      github: 'https://github.com/MiriamAvalos/Sinfonitones',
+      technologies: ['Html', 'JavaScript', 'Css'],
+    },
     {
-      id: 3,
+      id: 5,
       img: `${process.env.PUBLIC_URL}/barberiaAlura.png`,
       name: 'Barbershop Alura',
       description:
@@ -46,7 +74,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'Javascript', 'Bootstrap'],
     },
     {
-      id: 4,
+      id: 6,
       img: `${process.env.PUBLIC_URL}/cardValidation.png`,
       name: 'Card Validation',
       description:
@@ -56,7 +84,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'Javascript'],
     },
     {
-      id: 5,
+      id: 7,
       img: `${process.env.PUBLIC_URL}/adivinaElNumero.png`,
       name: 'Guess the secret number',
       description:
@@ -66,7 +94,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'Javascript'],
     },
     {
-      id: 6,
+      id: 8,
       img: `${process.env.PUBLIC_URL}/rickAndMorty.png`,
       name: 'Rick and Morty',
       description:
@@ -76,7 +104,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'Javascript'],
     },
     {
-      id: 7,
+      id: 9,
       img: `${process.env.PUBLIC_URL}/mundoPok.png`,
       name: 'MundoPok',
       description:
@@ -86,7 +114,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'Javascript'],
     },
     {
-      id: 8,
+      id: 10,
       img: `${process.env.PUBLIC_URL}/chidasTech.png`,
       name: 'CHIDAS TECH Clone',
       description:
@@ -96,7 +124,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'Bootstrap'],
     },
     {
-      id: 9,
+      id: 11,
       img: `${process.env.PUBLIC_URL}/clonJuniorAr.png`,
       name: 'Clon-de-Junior-Archievement',
       description:
@@ -106,7 +134,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'Bootstrap'],
     },
     {
-      id: 10,
+      id: 12,
       img: `${process.env.PUBLIC_URL}/curiosamenteTrivia.png`,
       name: 'Curiosamente Trivia',
       description:
@@ -116,7 +144,7 @@ const Proyects = {
       technologies: ['Html', 'Css', 'JavaScript vanilla'],
     },
     {
-      id: 11,
+      id: 13,
       img: `${process.env.PUBLIC_URL}/helloFlex.png`,
       name: 'HelloForest_FlexBox',
       description:
@@ -126,7 +154,7 @@ const Proyects = {
       technologies: ['Html', 'CSS3'],
     },
     {
-      id: 12,
+      id: 14,
       img: `${process.env.PUBLIC_URL}/googleClon.png`,
       name: 'Google-Clone',
       description:
